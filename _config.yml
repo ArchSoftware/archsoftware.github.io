@@ -26,6 +26,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ArchSoftware
 
+# Header pages
+header_pages:
+  - projects.markdown
+  - about.markdown
+
 # Build settings
 theme: minima
 plugins:

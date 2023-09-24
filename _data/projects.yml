@@ -1,0 +1,3 @@
+- title: ACFDE - Android CFD Engine
+  description: Android application written in Kotlin and Compose, which aims to solve aerodynamic problems
+  href: https://github.com/archsoftware/acfde
