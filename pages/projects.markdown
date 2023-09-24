@@ -9,7 +9,8 @@ permalink: /projects/
     {% include components/card.html
         title = project.title
         description = project.description
-        href = project.href
+        details = project.details
+        github = project.github
     %}
 {% endfor %}
 </div>

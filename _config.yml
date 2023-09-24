@@ -28,8 +28,8 @@ github_username:  ArchSoftware
 
 # Header pages
 header_pages:
-  - projects.markdown
-  - about.markdown
+  - pages/projects.markdown
+  - pages/about.markdown
 
 # Build settings
 theme: minima
