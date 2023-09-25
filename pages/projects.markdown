@@ -6,7 +6,7 @@ permalink: /projects/
 
 <div class="grid_layout">
 {% for project in site.data.projects %}
-    {% include components/card.html
+    {% include components/clickable_card.html
         title = project.title
         description = project.description
         details = project.details
