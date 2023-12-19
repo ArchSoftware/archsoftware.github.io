@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+    {{ super() }}
+    <div id="particles-js"></div>
+
+    <style>
+        .md-main__inner{
+            margin:0
+        }
+    </style>
+    <script src="javascripts/particles.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div id="description">
+        <h2>We craft Android applications focused on design and reactivity.</h2>
+    </div>
+
+    <style>
+        #description {
+            position: absolute;
+            left: 5%;
+            top: 40%;
+        }
+</style>
+{% endblock %}

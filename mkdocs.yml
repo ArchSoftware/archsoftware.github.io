@@ -1,0 +1,29 @@
+site_name: ArchSoftware
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  custom_dir: overrides
+  palette:
+    primary: white
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.footer
+extra_javascript:
+    - javascripts/app.js
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+nav:
+  - index.md
+  - projects/index.md
+  - about.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ArchSoftware
+copyright: Copyright &copy; 2023 ArchSoftware
