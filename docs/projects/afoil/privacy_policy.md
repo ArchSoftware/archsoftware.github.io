@@ -1,6 +1,6 @@
 ---
 template: privacy_policy.html
-title: Privacy policy for ACFDE project
+title: Privacy policy for Afoil project
 search:
     exclude: true
 hide:
